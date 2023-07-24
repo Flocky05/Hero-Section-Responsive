@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#0A061C;
+    background-color: rgba(10, 12, 25, 1);
+    ;
 }
 
 /* card section start */
@@ -16,7 +17,7 @@ body{
     
 }
 .card-container{
-    background:red;
+    background-color:rgba(170, 92, 219, 1);
     width: 80%;
     height: 70vh; 
 }
@@ -26,9 +27,14 @@ body{
     width: 100%;
 }
 .card-text{
-    width: 50%;
-    height: 100%;
-    background-color:yellow;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-boxs{
+    display: flex;
+    justify-content: space-between;
 }
 .card-img{
     width: 50%;
