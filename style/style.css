@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#0A061C;
+}
+
+/* card section start */
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-container{
+    background:red;
+    width: 80%;
+    height: 70vh; 
+}
+.card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.card-text{
+    width: 50%;
+    height: 100%;
+    background-color:yellow;
+}
+.card-img{
+    width: 50%;
+    height: 100%;
+}
+/* card section end*/
