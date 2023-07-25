@@ -42,11 +42,22 @@ body{
 .card-img img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 /* card section end*/
 
-/* for tablet version */
+/* for laptop version */
 /* card-body section start */
-
+@media only screen and (max-withd:1024px){
+    .card-text{
+        width: 60%;
+    }
+    .card-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
 
 /* card-body section end */
