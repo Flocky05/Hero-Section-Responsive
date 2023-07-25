@@ -26,6 +26,7 @@ body{
     justify-content: space-between;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 .card-text{
     color: white;
@@ -44,6 +45,13 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.overlay{
+    background-color:blueviolet;
+    position: absolute;
+    height: 100%;
+    width: 30.5%;
+    opacity: 0.3;
 }
 /* card section end*/
 
