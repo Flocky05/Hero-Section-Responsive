@@ -43,21 +43,25 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 /* card section end*/
 
 /* for laptop version */
 /* card-body section start */
-@media only screen and (max-withd:1024px){
+/* @media only screen and (max-withd:1000px){
     .card-text{
         width: 60%;
     }
+} */
+
+/* for tablet vertion start */
+@media only screen and (max-width:950px){
+    .card{
+        flex-direction: column-reverse;
+    }
     .card-img img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
+        object-position: top;
     }
 }
-
 /* card-body section end */
