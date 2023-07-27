@@ -26,7 +26,7 @@ body{
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    position: relative;
+    
 }
 .card-text{
     color: white;
@@ -40,6 +40,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.card-img{
+    position: relative;
+}
 .card-img img{
     width: 100%;
     height: 100%;
@@ -50,15 +53,13 @@ body{
     background-color:blueviolet;
     position: absolute;
     height: 100%;
-    width: 30.5%;
+    width: 100%;
     opacity: 0.3;
 }
 .overlay:hover{
     background-color:blanchedalmond;
     position: absolute;
-    height: 100%;
-    width: 30.5%;
-    opacity: 0.03;
+    
     
 }
 
@@ -66,11 +67,11 @@ body{
 
 /* for laptop version */
 /* card-body section start */
-/* @media only screen and (max-withd:1000px){
+@media only screen and (max-withd:1200px){
     .card-text{
         width: 60%;
     }
-} */
+}
 
 /* for tablet vertion start */
 @media only screen and (max-width:950px){
